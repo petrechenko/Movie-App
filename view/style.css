@@ -1,0 +1,106 @@
+body {
+    background-color: #000000;
+    background-image: linear-gradient(615deg, #000000 0%, #5e5368 94%);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a,
+a:hover {
+    color: inherit;
+    text-decoration: inherit !important;
+}
+
+
+/* index */
+
+.btn-outline-secondary {
+    width: 250px;
+    height: 55px;
+    margin: 5px auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    color: rgb(179, 171, 171);
+}
+
+h1,
+h2 {
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    margin-top: 8px;
+}
+
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+button,
+.home {
+    font-family: 'Roboto Mono', monospace;
+}
+
+h3,
+h6,
+#results {
+    margin-left: 15px;
+}
+
+.input,
+.movieInput {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control,
+textarea {
+    background-color: rgb(222, 226, 226);
+}
+
+#notes,
+#movieName {
+    width: 450px;
+}
+
+#name,
+#movieYear {
+    width: 190px;
+}
+
+
+/* movies */
+
+#movieName,
+#movieYear {
+    margin-right: 30px;
+}
+
+.home {
+    width: 110px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+
+/* theaters */
+
+#results,
+#listName {
+    margin-top: 25px;
+}
